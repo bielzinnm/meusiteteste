@@ -10,3 +10,32 @@ body{
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+/*nav bar */
+#navbar {
+
+    border-bottom:  1px solid #000000 ;
+}
+
+#navbar a:hover{
+    color: rgb(0, 0, 0);
+}
+#navbar a.active {
+    border-bottom: 1px solid #000000; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img{
+
+    width: 250px;
+}
+
+.menu-centro{
+   position: relative;
+   left: 50px;
+}
+
+
+   
